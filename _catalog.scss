@@ -31,6 +31,7 @@
     }
 
     &__summary {
+        cursor: pointer;
         display: flex;
         align-items: center;
         gap: 11px;
@@ -90,6 +91,7 @@
     position: relative;
 
     &__heading {
+        cursor: pointer;
         display: flex;
         align-items: center;
         gap: 10px;

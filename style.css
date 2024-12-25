@@ -52,6 +52,9 @@ body {
   align-items: center;
   gap: 33px;
 }
+.menu__item {
+  cursor: pointer;
+}
 .menu__icon:hover path {
   fill: #f16d7f;
 }
@@ -377,6 +380,7 @@ body {
   border-radius: 25px 0px 0px 25px;
 }
 .subscribe-form__button {
+  cursor: pointer;
   padding: 7px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -695,6 +699,9 @@ body {
   margin-top: 10px;
   margin-bottom: 41px;
 }
+.current-product-imagebox__button {
+  cursor: pointer;
+}
 .current-product-imagebox__button:hover path:last-child {
   fill: #F16D7F;
 }
@@ -787,6 +794,7 @@ body {
   display: flex;
   gap: 9px;
   align-items: center;
+  cursor: pointer;
 }
 .current-product-filter__heading {
   font-style: normal;
@@ -825,6 +833,7 @@ body {
   pointer-events: none;
 }
 .other-products__title {
+  display: block;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
@@ -971,6 +980,7 @@ body {
   padding: 13px 16px 16px;
 }
 .filter__summary {
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 11px;
@@ -1026,6 +1036,7 @@ body {
   position: relative;
 }
 .filter-pop-up__heading {
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -1183,6 +1194,7 @@ body {
   justify-content: center;
 }
 .cart-left__button {
+  cursor: pointer;
   box-sizing: border-box;
   width: 235px;
   height: 50px;
@@ -1254,6 +1266,7 @@ body {
   margin-left: 24px;
 }
 .cart-product__button {
+  cursor: pointer;
   position: absolute;
   top: 28px;
   right: 22px;
@@ -1302,6 +1315,7 @@ body {
   color: #B1B1B1;
 }
 .cart-form__button {
+  cursor: pointer;
   width: 102px;
   height: 35px;
   box-sizing: border-box;
@@ -1354,6 +1368,7 @@ body {
   padding-left: 24px;
 }
 .cart-make-order__button {
+  cursor: pointer;
   width: 273px;
   height: 50px;
   border: none;
@@ -1543,6 +1558,7 @@ body {
   color: #B1B1B1;
 }
 .registration-form__button {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -63,6 +63,10 @@
         margin-bottom: 41px;
     }
 
+    &__button {
+        cursor: pointer;
+    }
+
     &__button:hover path:last-child {
         fill: #F16D7F;
     }
@@ -163,6 +167,7 @@
     display: flex;
     gap: 9px;
     align-items: center;
+    cursor: pointer;
 
     &__heading {
         font-style: normal;
@@ -206,6 +211,7 @@
     }
 
     &__title {
+        display: block;
         font-weight: 400;
         font-size: 13px;
         line-height: 16px;

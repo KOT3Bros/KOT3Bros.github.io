@@ -54,6 +54,10 @@ body {
         gap: 33px;
     }
 
+    &__item {
+        cursor: pointer;
+    }
+
     &__icon:hover path {
         fill: #f16d7f;
     }
@@ -412,6 +416,7 @@ body {
     }
 
     &__button {
+        cursor: pointer;
         padding: 7px;
         font-family: "Lato", sans-serif;
         font-weight: 400;
